@@ -1,0 +1,171 @@
+/*===========================
+		Base Style
+============================*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Bai Jamjuree', sans-serif;
+	line-height: 1.5;
+}
+h1,
+h2,
+h3{
+	font-weight: 600;
+	color: #2d3436;
+}
+.center_text h1{
+	font-size: 32px;
+}
+p{
+	color: #636e72;
+	font-weight: 400;
+}
+img{
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	text-decoration: none;
+}
+ul li > img{
+	width: 150px;
+}
+/*===========================
+		Layout Style
+============================*/
+.container{
+	padding: 0 20px;
+}
+[class *='col-']{
+	width: 100%;
+}
+.center_text{
+	text-align: center;
+}
+.center_text p{
+	padding: 15px 0;
+}
+.snippets_section,
+.access_clipboard,
+.Supercharge_section,
+.company_icon,
+.clipboard_ios_os{
+	padding-top: 120px;
+}
+.row::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+/*===========================
+		header Style
+============================*/
+header{
+	background: url(../images/bg-header-mobile.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo_section{
+	text-align: center;
+	padding-top: 100px;
+}
+.logo{
+	width: 100px;
+}
+.btn a{
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	margin-top: 20px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+.btn_one{
+	background-color: hsl(171, 66%, 44%);
+	border-bottom: 2px solid  rgb(29, 138, 121);
+	box-shadow: 0px 0px 15px rgb(85, 199, 182);
+}
+.btn_two{
+	background-color: hsl(233, 100%, 69%);
+	border-bottom: 2px solid hsl(233, 100%, 69%);
+	box-shadow:0px 0px 15px rgb(105, 120, 239);
+}
+/*===========================
+	Snippets Style
+============================*/
+.list_of_apps_benifit ul li{
+	text-align: center;
+	margin: 35px 0;
+}
+/*===========================
+	Supercharge Style
+============================*/
+.Supercharge_list{
+	text-align: center;
+	margin: 35px 0;
+}
+.Supercharge_list img{
+	width: 60px;
+}
+/*===========================
+	company_icon Style
+============================*/
+.company_icon_list{
+	text-align: center;
+}
+.company_icon_list ul li{
+	margin: 35px 0;
+}
+/*===========================
+	Footer Style
+============================*/
+footer{
+	margin-top: 90px;
+	padding-top: 60px;
+	background-color: #eaeaea;
+}
+.footerImage{
+	text-align: center;
+}
+.footerLogo{
+	width: 100px;
+	
+}
+.footerList ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.footerList ul li {
+	text-align: center;
+	margin: 10px 0;
+}
+.footerList ul li a{
+	text-decoration: none;
+	color: #636e72;
+	font-weight: 400;
+}
+.footer_social{
+	padding-top: 20px;
+}
+.footer_social ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.footer_social ul li{
+	display: inline-block;
+	margin: 0 15px;
+}

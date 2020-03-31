@@ -1,0 +1,76 @@
+/*===========================
+	Media Queries
+============================*/
+
+@media(min-width: 768px){
+	.btn{
+		text-align: center;
+	}
+	.btn > a{
+		display: inline-block;
+		width: 30%;
+		margin-left: 24px;
+	}
+}
+@media(min-width: 992px){
+	header{
+		background:linear-gradient(transparent,#fff), url(../images/bg-header-desktop.png);
+	}
+	.logo{
+		padding-bottom: 20px;
+	}
+	.container{
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.btn > a{
+		width: 20%
+	}
+	.center_text{
+		width: 700px;
+		margin: auto;
+	}
+	.list_of_apps_benifit {
+		padding-left: 80px;
+	}
+	.list_of_apps_benifit ul li{
+		text-align: left;
+	}
+	.company_icon_list ul li{
+		display: inline-block;
+		width: 200px;
+	}
+	.Supercharge_list img {
+    	padding-bottom: 20px;
+	}
+	.Supercharge_list > h3{
+		padding-bottom: 15px;
+	}
+	.footerList ul li{
+		display: inline-block;
+		margin-right:40px;
+		
+	}
+	.footer_social{
+		float: right;
+	}
+	[class *='col-']{
+		float: left;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
